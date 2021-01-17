@@ -36,4 +36,7 @@ class MainActivity : AppCompatActivity() {
         }
         diceImage.setImageResource(drawRes)
     }
+    private fun roll() {
+        TODO("Abhi mood nahi hai")
+    }
 }
