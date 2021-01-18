@@ -29,8 +29,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        android:src="@drawable/empty_dice"
-        tools:src="@drawable/dice_1"/>  <!-- This lets us have a diffrent image during development  but this will get ignored in the final build -->
+        app:srcCompat="@drawable/empty_dice"
+        tools:src="@drawable/dice_1"/>   <!--This lets us have a diffrent image during development  but this will get ignored in the final build -->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
